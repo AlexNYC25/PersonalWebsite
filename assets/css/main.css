@@ -2779,7 +2779,7 @@ input, select, textarea {
 
 			.tiles article:after {
 				/* background-color: rgba(36, 41, 67, 0.25); */
-				background-image: url("../../images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg")
+				background-image: url("../../images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg");
 
 				content: '';
 				display: block;
