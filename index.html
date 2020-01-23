@@ -21,6 +21,10 @@
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+  <!-- NODE JS ICON -->
+  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+
+
 </head>
 
 <body id="page-top">
@@ -55,7 +59,7 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto header-text">
-      <h1 class="mb-1">Stylish Portfolio</h1>
+      <h1 class="mb-1" ><p id="mainIntro"></p></h1>
       <h3 class="mb-5">
         <em>Alexis Montes Portfolio</em>
       </h3>
@@ -96,28 +100,28 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
+            <i class="iconify" data-icon="fa-brands:node" data-inline="true"></i>
           </span>
           <h4>
-            <strong>Responsive</strong>
+            <strong>Node JS</strong>
           </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
+          <p class="text-faded mb-0">Experience with creating web apps using Node js and Express.</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
+            <i class="iconify" data-icon="cib:javascript" data-inline="true"></i>
           </span>
           <h4>
-            <strong>Redesigned</strong>
+            <strong>Javascript</strong>
           </h4>
           <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
+            <i class="iconify" data-icon="fa-brands:python" data-inline="true"></i>
           </span>
           <h4>
-            <strong>Favorited</strong>
+            <strong>Python</strong>
           </h4>
           <p class="text-faded mb-0">Millions of users
             <i class="fas fa-heart"></i>
@@ -125,10 +129,10 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+            <i class="iconify" data-icon="cib:mysql" data-inline="true"></i>
           </span>
           <h4>
-            <strong>Question</strong>
+            <strong>MySQL</strong>
           </h4>
           <p class="text-faded mb-0">I mustache you a question...</p>
         </div>
@@ -244,6 +248,11 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
+  <!-- TypeIt lib-->
+  <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js" />
+
+
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -252,7 +261,9 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/stylish-portfolio.js"></script>
+
+  <script src="js/typeEffect.js"></script>
 
 </body>
 
