@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro';
-  background-image: url("../img/background-image.jpg");
+  background-color: #105BA7;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -369,4 +369,8 @@ a:hover, a:focus, a:active {
 
 .header-text{
   color: #fff;
+}
+
+.bg-light{
+  background-color: #1081A7!important;
 }
