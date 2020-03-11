@@ -10,9 +10,11 @@ html {
   height: 100%;
 }
 
+
+
 body {
   font-family: 'Source Sans Pro';
-  background-color: #105BA7;
+  background-color: #C4CFC9;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -96,7 +98,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/city-overview.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +128,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #92B7C4;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -229,6 +231,11 @@ h6 {
   max-width: 30rem;
 }
 
+#mainIntro{
+  font-size: 50%;
+  
+}
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -295,6 +302,14 @@ h6 {
   }
 }
 
+.tool-row {
+  height: 65px;
+}
+
+.tool-picture {
+  height: 100px;
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -356,7 +371,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #709BB3 !important;
 }
 
 .text-primary {
@@ -372,5 +387,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-light{
-  background-color: #1081A7!important;
+  background-color: #92B7C4 !important;
 }
+
+
