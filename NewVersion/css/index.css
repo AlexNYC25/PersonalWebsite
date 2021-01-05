@@ -1,0 +1,27 @@
+
+@font-face{
+    font-family: NotoSans;
+    src: url('./Noto_Sans_JP/NotoSansJP-Regular.otf');
+}
+
+#intro-message{
+    font-family: 'NotoSans', 'Times New Roman', Times, serif;
+}
+
+#info-col{
+}
+
+#info-card{
+    border-radius: 10px;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-color: #743ad5;
+    border-style: solid;
+    
+}
+
+
+
+.web-text{
+    font-family: 'NotoSans', 'Times New Roman', Times, serif;
+}
