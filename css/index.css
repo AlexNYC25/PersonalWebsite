@@ -1,27 +1,46 @@
-
-@font-face{
-    font-family: NotoSans;
-    src: url('./Noto_Sans_JP/NotoSansJP-Regular.otf');
+@font-face {
+  font-family: NotoSans;
+  src: url("./Noto_Sans_JP/NotoSansJP-Regular.otf");
+}
+body {
+  min-height: 100%;
+  background-color: black;
 }
 
-#intro-message{
-    font-family: 'NotoSans', 'Times New Roman', Times, serif;
+#intro {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  left: 0;
 }
 
-#info-col{
+#intro-message {
+  font-family: "NotoSans", "Times New Roman", Times, serif;
 }
 
-#info-card{
-    border-radius: 10px;
-    border-image-slice: 1;
-    border-width: 5px;
-    border-color: #743ad5;
-    border-style: solid;
-    
+#chatbot {
+  position: relative;
 }
 
-
-
-.web-text{
-    font-family: 'NotoSans', 'Times New Roman', Times, serif;
+#info-card {
+  background-color: black;
+  border-radius: 10px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-color: #743ad5;
+  border-style: solid;
 }
+
+#info-card-text, #skills {
+  color: white;
+}
+
+.web-text {
+  font-family: "NotoSans", "Times New Roman", Times, serif;
+}
+
+html {
+  background-color: black;
+}
+
+/*# sourceMappingURL=index.css.map */
