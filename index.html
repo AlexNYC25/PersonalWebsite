@@ -1,340 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Alexis Montes' Portfolio">
+		<meta name="author" content="Alexis Montes">
 
-<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Alexis Montes Portfolio">
-  <meta name="author" content="Alexis Montes">
+		<link href="./css/index.css" rel="stylesheet" />
+	</head>
 
-  <title>Alexis Montes Portfolio</title>
+	<body style="min-height: 100%; background-color: black;">
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark web-text">
+			<div class="container-fluid">
+	  			<a class="navbar-brand" href="#">Navbar</a>
+	  			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+		  				<a class="nav-link active" aria-current="page" href="#">Home</a>
+		  				<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link" href="#">Skills</a>
+						<a class="nav-link" href="#">Projects</a>
+						<a class="nav-link" href="#">Contact Me</a>
+					</div>
+	  			</div>
+			</div>
+		</nav>
+		  
+		<div class="container">
+			<div class="row align-items-end" id="intro" style="background-color: black; color:white;bottom: 0; left: 0;">
+			
+				<div id="intro-message" class="col-lg-4 col-md-4 h1 ßpx-5 " style="">
+					<p >
+						Hello and welcome to my humble corner of the internet
+					</p>
+				</div>
+				
+				<div class="col-lg-8 col-md-8">
+					<lottie-player class="" src="./svg/Chatbot Colour Animation.json" background="transparent"  speed="1"  style=" position: relative;" loop autoplay></lottie-player>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				</div>
+			
 
-  <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+			</div>
+		</div>
+		
 
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
+		<br />
 
-  <!-- NODE JS ICON -->
-  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+		<div class="container">
+			<div class="row" style="">
 
+				<div class="col-12" id="info-col">
+					<div class="card" id="info-card" style="background-color: black;">
+						<div class="row m-2" style="">
+							<div class="col-lg-3 col-md-3 col-sm-12 position-relative pb-5">
+								<img src="./images/avataaars.svg" />
+							</div>
+							<div class="col-lg-8 col-md-8 p-4" style="color: white;">
+								<div class="row">
+									<p class="text-center web-text"> 
+										A Little about me:
+									</p>
+								</div>
+								<div class="row">
+									<p class="text-center">
+										I'm currently in the process of completing my 
+										bachelors degree in Computer Science, 
+									</p>
+								</div>
+								
+							</div>
+						</div>
 
-</head>
+					</div>
+				</div>
+				
 
-<body id="page-top">
+			</div>
+		</div>
+		
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Navigation</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#skills">Skills</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+		<br />
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto header-text">
-      <h1 class="mb-1" ><p id="mainIntro"></p></h1>
-      <h3 class="mb-5">
-        <em>Alexis Montes Portfolio</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Lets Take a Tour</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
+		<div id="skiils" class="container rounded-3 " style=" color:white;">
+			<p class="h2 web-text">
+				My Skills and Tools
+			</p>
+			<div class="row row-cols-2">
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-javascript-144.png" alt="javascript icon"/>
+					<p class="card-text web-text ">
+						Javascript
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-react-native-144.png" alt="React js icon"/>
+					<p class="card-text web-text">
+						React JS
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-nodejs-144.png" alt="Node js icon"/>
+					<p class="card-text">
+						Node JS 
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-mongodb-144.png" alt="mongoDB icon"/>
+					<p class="card-text">
+						MongoDB
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-python-144.png" alt="python icon"/>
+					<p class="card-text">
+						Python
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-html-5-144.png" alt="HTML icon"/>
+					<p class="card-text">
+						HTML
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<img src="./icons/icons8-css3-144.png" alt="css icon"/>
+					<p class="card-text">
+						CSS
+					</p>
+				</div>
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>A little about me.</h2>
-          <p class="lead mb-5">
-            Hi there currently I'm persuing a bachlors degree from Queens College in computer science receiving a general all around education
-            on computer science topics, everything from computer architecture to database applications. 
-            <br />
-            Being a life long learner I'm constantly teaching myself more topics such as Node JS, MySQL and Django.
-            <br />
-            So far I have been using "The Odin Project", "FreeCodeCamp", and "Youtube" tutorials to build myself a ciriculum around modern web technologies. And 
-            currently commited to #100DaysOfCode.
+				
 
-          </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#skills">Overview of my skills and progress</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section class="content-section bg-primary text-white text-center" id="skills">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Skills</h3>
-        <h2 class="mb-5">Breakdown of Skill</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="iconify" data-icon="fa-brands:node" data-inline="true"></i>
-          </span>
-          <h4>
-            <strong>Node JS</strong>
-          </h4>
-          <p class="text-faded mb-0">Experience with creating web apps using Node js and Express framework.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="iconify" data-icon="cib:javascript" data-inline="true"></i>
-          </span>
-          <h4>
-            <strong>Javascript</strong>
-          </h4>
-          <p class="text-faded mb-0">Familiar with javascript for web and Node Js including ES6</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="iconify" data-icon="fa-brands:python" data-inline="true"></i>
-          </span>
-          <h4>
-            <strong>Python</strong>
-          </h4>
-          <p class="text-faded mb-0">Experienced with the latest Python 3.7 language including web development capabilities</p>
-          <!--<i class="fas fa-heart"></i>-->
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="iconify" data-icon="cib:mysql" data-inline="true"></i>
-          </span>
-          <h4>
-            <strong>MySQL</strong>
-          </h4>
-          <p class="text-faded mb-0">Familiar with MySQL databases including similar database languages like MariaDB and Microsoft Server.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Weather + Gif Search (Node JS)</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>HTML Calculator (HTML, CSS, JS)</h2>
-                <p class="mb-0">Calculator built around HTML, CSS and JS to preform simple arithmetic.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>T-SQL Queries</h2>
-                <p class="mb-0">Queries based on supplied databases using Transact-SQL and Microsoft DBMS</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Spotify Music Album Search</h2>
-                <p class="mb-0">Page built using Spotify Web API to search and retrieve Album images and store them in cache.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="content-section" id="work-in-progress">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h2 class="mb-5">Works in Progress</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Weather + Gif Search (Node JS)</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>HTML Calculator (HTML, CSS, JS)</h2>
-                <p class="mb-0">Calculator built around HTML, CSS and JS to preform simple arithmetic.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>T-SQL Queries</h2>
-                <p class="mb-0">Queries based on supplied databases using Transact-SQL and Microsoft DBMS</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Spotify Music Album Search</h2>
-                <p class="mb-0">Page built using Spotify Web API to search and retrieve Album images and store them in cache.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <!--
-  <section class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
-  </section>
-  -->
+			</div>
+			
+		</div>
 
 
-  <section id="tools" class="content-section bg-primary">
-    <div class="container">
-      <div class="content-section-heading text-center" >
-        <h3 class="text-secondary ">Tools</h3>
-        <h2 class="col-lg-10 mx-auto">What i'm Using</h2>
-      </div>
-      <div class="lead mx-auto text-center">
-          <p></li>Primary Laptop: Macbook Pro 13 💻</p>
-          <p>Primary Operating System: MacOS Catalina </p>
-          <p>Secondary Laptop: Acer E15 💻</p>
-          <p>Secondary Operating System: Manjaro Linux</p>
-          <p>Code Editor: Visual Studio Code</p>
-          <p>Editor Theme: Winter Is Coming</p>
-
-      </div>
-    </div>
-    
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-linkedin"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-reddit"></i>
-          </a>
-        </li>
-
-      </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Alexis Montes 2019</p>
-    </div>
-  </footer>
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<!-- Javascript Lottie Svg vector player-->
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- TypeIt lib-->
-  <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
-
-  <script src="js/typeEffect.js"></script>
-
-
-
-
-</body>
+	</body>
 
 </html>
