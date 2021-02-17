@@ -66,6 +66,30 @@ body {
   border-style: solid;
 }
 
+.color-square {
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.color-square-container {
+  float: left;
+}
+
+.color-square-legend {
+  display: inline;
+}
+
+.in-progress-color {
+  background-color: #99C2D6;
+}
+
+.completed-color {
+  background-color: #426BB3;
+}
+
 html {
   background-color: black;
 }
