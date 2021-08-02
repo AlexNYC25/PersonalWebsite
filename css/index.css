@@ -24,15 +24,20 @@ body {
 
 #info-card {
   background-color: black;
+  /*
+   removed border
   border-radius: 10px;
   border-image-slice: 1;
   border-width: 5px;
   border-color: #743ad5;
   border-style: solid;
+  */
 }
 
 #info-card-text, #skills {
   color: white;
+  font-family: "NotoSans", "Times New Roman", Times, serif;
+  font-size: 1.25rem;
 }
 
 .web-text {
@@ -51,11 +56,12 @@ body {
 }
 
 .project-card {
-  background-color: black;
+  background-color: rgb(28, 26, 32);
+  
   border-radius: 10px;
   border-image-slice: 1;
   border-width: 3px;
-  border-color: #743ad5;
+  /*border-color: #743ad5;*/
   border-style: solid;
   
 }
